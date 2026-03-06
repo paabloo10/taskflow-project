@@ -13,6 +13,6 @@ Aplicación web de gestión de tareas desarrollada con HTML, CSS y JavaScript.
 ## Tecnologías
 
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 - LocalStorage
