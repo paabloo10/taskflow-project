@@ -36,9 +36,22 @@
 <section class="tasks">
 
 <h2>Mis tareas</h2>
-
-
-<div class="task-card high">
+<form id="taskForm">
+        <input 
+            type="text"
+            id="taskInput"
+            placeholder="Añadir nueva tarea..."
+            required
+        >
+        <button type="submit">Añadir</button>
+    </form>
+  <input 
+        type="text"
+        id="searchInput"
+        placeholder="Buscar tarea..."
+    >
+<div id="taskList">
+  <div class="task-card high">
 <div class="task-info">
 <h3>Terminar diseño de la app</h3>
 <p>Proyecto final</p>
@@ -47,6 +60,7 @@
 <div class="task-meta">
 <span class="category">Trabajo</span>
 <span class="badge">Alta</span>
+  <button class=delete-btn">Eliminar</button>
 </div>
 </div>
 
@@ -60,10 +74,12 @@
 <div class="task-meta">
 <span class="category">Estudio</span>
 <span class="badge">Media</span>
+<button class="delete-btn">Eliminar</button>
+</div>
 </div>
 </div>
 
-
+  
 <div class="task-card low">
 <div class="task-info">
 <h3>Salir a correr</h3>
@@ -77,8 +93,9 @@
 </div>
 
 </section>
-
+<script src="app.js"></script>
 </main>
 
 </body>
 </html>
+
